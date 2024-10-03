@@ -1,337 +1,738 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1114" dy="3900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1114" dy="3900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="1">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-42" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Construir un diagrama de flujo&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. Explique el algoritmo de funcionamiento de un cruce de semáforo el cual esta construido por 4 semáforos.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3 luces, rojo, amarillo y verde&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. Mas la luz de el tiempo para el cruce peatonal&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3. Explique con leguaje formal, &lt;b style=&quot;&quot;&gt;CADA PASO&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-42" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Construir un diagrama de flujo&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1. Explique el algoritmo de funcionamiento de un cruce de semáforo el cual esta construido por 4 semáforos.&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3 luces, rojo, amarillo y verde&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2. Mas la luz de el tiempo para el cruce peatonal&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3. Explique con leguaje formal, &lt;b style=&quot;&quot;&gt;CADA PASO&amp;nbsp;&lt;/b&gt;&amp;nbsp;&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="20" y="-350" width="60" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-44" value="Luz de carril 1, encendido" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-44" value="Luz de carril 1, encendido" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;rotation=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="308" y="-20" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-268" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-45" target="qO4f61m2Y4nxAiU2VlyZ-266">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-268" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-45" target="qO4f61m2Y4nxAiU2VlyZ-266" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-45" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-45" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="308" y="180" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-280" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-47" target="qO4f61m2Y4nxAiU2VlyZ-278">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-280" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-47" target="qO4f61m2Y4nxAiU2VlyZ-278" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-47" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-47" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="308" y="390" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-286" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-48" target="qO4f61m2Y4nxAiU2VlyZ-283">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-286" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-48" target="qO4f61m2Y4nxAiU2VlyZ-283" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-48" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-48" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="308" y="590" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-261" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-52" target="qO4f61m2Y4nxAiU2VlyZ-44">
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-52" target="qO4f61m2Y4nxAiU2VlyZ-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-265" value="loop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qO4f61m2Y4nxAiU2VlyZ-261">
-          <mxGeometry x="-0.2857" y="-6" relative="1" as="geometry">
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-52" value="repetiremos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="168" y="-110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-312" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-67" target="qO4f61m2Y4nxAiU2VlyZ-289" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-67" value="esperamos 25&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;segundos&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="780" width="80" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-68" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-67" target="qO4f61m2Y4nxAiU2VlyZ-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-69" value="luz peatonal 2&lt;div&gt;encendido&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="90" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-253" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-248" target="qO4f61m2Y4nxAiU2VlyZ-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-264" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-248" target="qO4f61m2Y4nxAiU2VlyZ-69" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-248" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="80" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-252" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-44" target="qO4f61m2Y4nxAiU2VlyZ-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-267" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-266" target="qO4f61m2Y4nxAiU2VlyZ-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-274" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-266" target="qO4f61m2Y4nxAiU2VlyZ-269" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-266" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="270" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-269" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="280" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-279" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-278" target="qO4f61m2Y4nxAiU2VlyZ-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-282" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-278" target="qO4f61m2Y4nxAiU2VlyZ-281" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-278" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="480" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-281" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="490" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-284" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-283" target="qO4f61m2Y4nxAiU2VlyZ-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-288" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-283" target="qO4f61m2Y4nxAiU2VlyZ-287" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-283" value="si luz de carril 4 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="680" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-287" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="690" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-289" value="Luz de carril 1, amarillo" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#fff2cc;strokeColor=#d6b656;rotation=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="870" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-290" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-291" target="qO4f61m2Y4nxAiU2VlyZ-303" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-291" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="1070" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-292" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-293" target="qO4f61m2Y4nxAiU2VlyZ-307" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-293" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="1280" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-294" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-295" target="qO4f61m2Y4nxAiU2VlyZ-310" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-295" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="1480" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-296" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="980" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-297" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-299" target="qO4f61m2Y4nxAiU2VlyZ-291" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-298" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-299" target="qO4f61m2Y4nxAiU2VlyZ-296" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-299" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="970" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-300" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-289" target="qO4f61m2Y4nxAiU2VlyZ-299" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-301" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-303" target="qO4f61m2Y4nxAiU2VlyZ-293" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-302" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-303" target="qO4f61m2Y4nxAiU2VlyZ-304" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-303" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="1160" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-304" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="1170" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-305" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-307" target="qO4f61m2Y4nxAiU2VlyZ-295" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-306" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-307" target="qO4f61m2Y4nxAiU2VlyZ-308" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-307" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="1370" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-308" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="1380" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-309" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-310" target="qO4f61m2Y4nxAiU2VlyZ-311" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-314" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-310" target="qO4f61m2Y4nxAiU2VlyZ-313" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-310" value="si luz de carril 4esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="1570" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-311" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="1580" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-367" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-313" target="qO4f61m2Y4nxAiU2VlyZ-315" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-313" value="Esperar 5 segundos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="298" y="1680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-315" value="Luz de carril 1, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;rotation=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="1790" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-316" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-317" target="qO4f61m2Y4nxAiU2VlyZ-332" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-317" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="1990" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-318" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-319" target="qO4f61m2Y4nxAiU2VlyZ-336" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-319" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="2200" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-320" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-321" target="qO4f61m2Y4nxAiU2VlyZ-340" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-321" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="2400" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-322" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-323" target="qO4f61m2Y4nxAiU2VlyZ-342" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-323" value="esperamos 25&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;segundos&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="2590" width="80" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-324" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-323" target="qO4f61m2Y4nxAiU2VlyZ-323" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-325" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="1900" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-326" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-328" target="qO4f61m2Y4nxAiU2VlyZ-317" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-327" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-328" target="qO4f61m2Y4nxAiU2VlyZ-325" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-328" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="1890" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-329" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-315" target="qO4f61m2Y4nxAiU2VlyZ-328" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-330" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-332" target="qO4f61m2Y4nxAiU2VlyZ-319" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-331" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-332" target="qO4f61m2Y4nxAiU2VlyZ-333" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-332" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="2080" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-333" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="2090" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-334" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-336" target="qO4f61m2Y4nxAiU2VlyZ-321" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-335" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-336" target="qO4f61m2Y4nxAiU2VlyZ-337" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-336" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="2290" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-337" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="2300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-338" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-340" target="qO4f61m2Y4nxAiU2VlyZ-323" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-339" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-340" target="qO4f61m2Y4nxAiU2VlyZ-341" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-340" value="si luz de carril 4 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="2490" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-341" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="2500" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-342" value="Luz de carril 1, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;rotation=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="2680" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-343" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-344" target="qO4f61m2Y4nxAiU2VlyZ-356" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-344" value="Luz de carril 2, amarillo" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#fff2cc;strokeColor=#d6b656;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="2880" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-345" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-346" target="qO4f61m2Y4nxAiU2VlyZ-360" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-346" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="3090" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-347" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-348" target="qO4f61m2Y4nxAiU2VlyZ-364" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-348" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="308" y="3290" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-349" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="2790" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-350" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-352" target="qO4f61m2Y4nxAiU2VlyZ-344" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-351" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-352" target="qO4f61m2Y4nxAiU2VlyZ-349" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-352" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="2780" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-353" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-342" target="qO4f61m2Y4nxAiU2VlyZ-352" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-354" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-356" target="qO4f61m2Y4nxAiU2VlyZ-346" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-355" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-356" target="qO4f61m2Y4nxAiU2VlyZ-357" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-356" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="2970" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-357" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="480" y="2980" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-358" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-360" target="qO4f61m2Y4nxAiU2VlyZ-348" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-359" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-360" target="qO4f61m2Y4nxAiU2VlyZ-361" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-360" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="3180" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-361" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="3190" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-362" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-364" target="qO4f61m2Y4nxAiU2VlyZ-365" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-363" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-364" target="qO4f61m2Y4nxAiU2VlyZ-366" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-364" value="si luz de carril 4 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="268" y="3380" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-365" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="470" y="3390" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-366" target="tvCxCkWQ9LMUDPqLHwzt-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-366" value="Esperar 5 segundos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="298" y="3490" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-0" value="Luz de carril 1, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="3600" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-1" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-2" target="tvCxCkWQ9LMUDPqLHwzt-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-2" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="3830" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-3" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-4" target="tvCxCkWQ9LMUDPqLHwzt-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-4" value="Luz de carril 3, encendido" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="4040" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-5" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-6" target="tvCxCkWQ9LMUDPqLHwzt-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-6" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="4240" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-7" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-8" target="tvCxCkWQ9LMUDPqLHwzt-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-8" value="esperamos 25&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;segundos&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="4430" width="80" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-8" target="tvCxCkWQ9LMUDPqLHwzt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-10" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="3740" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-13" target="tvCxCkWQ9LMUDPqLHwzt-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-12" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-13" target="tvCxCkWQ9LMUDPqLHwzt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-13" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="3730" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-0" target="tvCxCkWQ9LMUDPqLHwzt-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-15" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-17" target="tvCxCkWQ9LMUDPqLHwzt-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-16" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-17" target="tvCxCkWQ9LMUDPqLHwzt-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-17" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="3920" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-18" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="3930" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-19" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-21" target="tvCxCkWQ9LMUDPqLHwzt-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-20" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-21" target="tvCxCkWQ9LMUDPqLHwzt-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-21" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="4130" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-22" value="luz peatonal 4&lt;div&gt;encendido&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="4140" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-23" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-25" target="tvCxCkWQ9LMUDPqLHwzt-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-24" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-25" target="tvCxCkWQ9LMUDPqLHwzt-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-25" value="si luz de carril 4 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="4330" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-26" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="4340" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-27" value="Luz de carril 1, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="4520" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-28" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-29" target="tvCxCkWQ9LMUDPqLHwzt-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-29" target="tvCxCkWQ9LMUDPqLHwzt-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-29" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="4720" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-30" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-31" target="tvCxCkWQ9LMUDPqLHwzt-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-31" value="Luz de carril 3, amarillo" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="4930" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-32" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-33" target="tvCxCkWQ9LMUDPqLHwzt-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-33" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="5130" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-34" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="4630" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-35" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-37" target="tvCxCkWQ9LMUDPqLHwzt-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-36" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-37" target="tvCxCkWQ9LMUDPqLHwzt-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-37" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="4620" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-27" target="tvCxCkWQ9LMUDPqLHwzt-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-39" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-41" target="tvCxCkWQ9LMUDPqLHwzt-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-40" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-41" target="tvCxCkWQ9LMUDPqLHwzt-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-41" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="4810" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-42" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="480" y="4820" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-43" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-45" target="tvCxCkWQ9LMUDPqLHwzt-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-44" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-45" target="tvCxCkWQ9LMUDPqLHwzt-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-45" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="5020" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-46" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="5030" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-47" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-49" target="tvCxCkWQ9LMUDPqLHwzt-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-48" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-49" target="tvCxCkWQ9LMUDPqLHwzt-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-49" value="si luz de carril 4 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="268" y="5220" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-50" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="5230" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-51" target="tvCxCkWQ9LMUDPqLHwzt-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-51" value="Esperar 5 segundos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="298" y="5330" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-54" target="tvCxCkWQ9LMUDPqLHwzt-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-54" value="Luz de carril 1, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="308" y="5440" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-55" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-56" target="tvCxCkWQ9LMUDPqLHwzt-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-56" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="5670" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-57" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-58" target="tvCxCkWQ9LMUDPqLHwzt-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-58" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="5880" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-59" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-60" target="tvCxCkWQ9LMUDPqLHwzt-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-60" value="Luz de carril 4, encendido" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="6080" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-61" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-62" target="tvCxCkWQ9LMUDPqLHwzt-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-62" value="esperamos 25&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;segundos&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="6270" width="80" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-62" target="tvCxCkWQ9LMUDPqLHwzt-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-64" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="502" y="5580" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-67" target="tvCxCkWQ9LMUDPqLHwzt-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-66" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-67" target="tvCxCkWQ9LMUDPqLHwzt-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-67" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="5570" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-69" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-71" target="tvCxCkWQ9LMUDPqLHwzt-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-70" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-71" target="tvCxCkWQ9LMUDPqLHwzt-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-71" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="5760" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-72" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="492" y="5770" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-73" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-75" target="tvCxCkWQ9LMUDPqLHwzt-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-74" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-75" target="tvCxCkWQ9LMUDPqLHwzt-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-75" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="5970" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-76" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="482" y="5980" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-77" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-79" target="tvCxCkWQ9LMUDPqLHwzt-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-78" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-79" target="tvCxCkWQ9LMUDPqLHwzt-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-79" value="si luz de carril 4 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="6170" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-80" value="luz peatonal 1&lt;div&gt;encendido&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="482" y="6180" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-81" value="Luz de carril 1, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="6360" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-82" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-84" target="tvCxCkWQ9LMUDPqLHwzt-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-84" target="tvCxCkWQ9LMUDPqLHwzt-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-84" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="6560" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-85" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-86" target="tvCxCkWQ9LMUDPqLHwzt-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-86" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="6770" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-87" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-88" target="tvCxCkWQ9LMUDPqLHwzt-104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-88" value="Luz de carril 4, amarillo" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="320" y="6970" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-89" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="502" y="6470" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-90" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-92" target="tvCxCkWQ9LMUDPqLHwzt-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-91" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-92" target="tvCxCkWQ9LMUDPqLHwzt-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-92" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="6460" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-93" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-81" target="tvCxCkWQ9LMUDPqLHwzt-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-94" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-96" target="tvCxCkWQ9LMUDPqLHwzt-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-95" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-96" target="tvCxCkWQ9LMUDPqLHwzt-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-96" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="6650" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-97" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="492" y="6660" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-98" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-100" target="tvCxCkWQ9LMUDPqLHwzt-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-99" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-100" target="tvCxCkWQ9LMUDPqLHwzt-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-100" value="si luz de carril 3 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="6860" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-101" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="482" y="6870" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-102" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-104" target="tvCxCkWQ9LMUDPqLHwzt-105">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-104" value="si luz de carril 4 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="280" y="7060" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-105" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="482" y="7070" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-104" target="qO4f61m2Y4nxAiU2VlyZ-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="308" y="7130" as="sourcePoint" />
+            <mxPoint x="116" y="-80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="96" y="7095" />
+              <mxPoint x="96" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-110" value="repetir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tvCxCkWQ9LMUDPqLHwzt-109">
+          <mxGeometry x="0.991" y="7" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-52" value="empezar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="168" y="-110" width="100" height="60" as="geometry" />
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1710" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-312" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-67" target="qO4f61m2Y4nxAiU2VlyZ-289">
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-115" value="otro retraso de 5 seg para apagar la luz de carril 1 y encender la&lt;div&gt;siguiente &quot;luz de carril&quot;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="452" y="1685" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-119" target="qO4f61m2Y4nxAiU2VlyZ-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-67" value="esperamos 25&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;segundos&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="780" width="80" height="52" as="geometry" />
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-119" value="se enciende la luz de carril 1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="505" y="-30" width="50" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-68" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-67" target="qO4f61m2Y4nxAiU2VlyZ-67">
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-121" target="qO4f61m2Y4nxAiU2VlyZ-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="410" />
+              <mxPoint x="650" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-121" target="qO4f61m2Y4nxAiU2VlyZ-287">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="410" />
+              <mxPoint x="650" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-121" value="las demas luces estaran apagadas por un periodo de 30 segundos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="740" y="360" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-124" target="qO4f61m2Y4nxAiU2VlyZ-289">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-124" value="cambio de color a amarillo cuando&lt;div&gt;hay un retardo de 25 seg.&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="860" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-126" target="qO4f61m2Y4nxAiU2VlyZ-296">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-69" value="luz peatonal 2&lt;div&gt;encendido&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="90" width="80" height="50" as="geometry" />
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-126" value="luz peatonal se apagara si la luz de carril 1 cambia de color a amarillo o rojo (apagado)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="980" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-253" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-248" target="qO4f61m2Y4nxAiU2VlyZ-45">
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.738;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-131" target="qO4f61m2Y4nxAiU2VlyZ-248">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="70" />
+              <mxPoint x="531" y="70" />
+              <mxPoint x="531" y="71" />
+              <mxPoint x="386" y="71" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-131" target="qO4f61m2Y4nxAiU2VlyZ-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-264" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-248" target="qO4f61m2Y4nxAiU2VlyZ-69">
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-131" value="La decisión hace que la luz peatonal encienda&amp;nbsp;&lt;div&gt;para que los peatones pasen (valga la redundancia)&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="650" y="80" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-137" target="qO4f61m2Y4nxAiU2VlyZ-315">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-248" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="80" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-252" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-44" target="qO4f61m2Y4nxAiU2VlyZ-248">
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-137" target="qO4f61m2Y4nxAiU2VlyZ-325">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-267" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-266" target="qO4f61m2Y4nxAiU2VlyZ-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-274" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-266" target="qO4f61m2Y4nxAiU2VlyZ-269">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-266" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="270" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-269" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="280" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-279" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-278" target="qO4f61m2Y4nxAiU2VlyZ-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-282" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-278" target="qO4f61m2Y4nxAiU2VlyZ-281">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-278" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="480" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-281" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="490" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-284" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-283" target="qO4f61m2Y4nxAiU2VlyZ-67">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-288" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-283" target="qO4f61m2Y4nxAiU2VlyZ-287">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-283" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="680" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-287" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="690" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-289" value="Luz de carril 1, amarillo" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#fff2cc;strokeColor=#d6b656;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="870" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-290" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-291" target="qO4f61m2Y4nxAiU2VlyZ-303">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-291" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="1070" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-292" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-293" target="qO4f61m2Y4nxAiU2VlyZ-307">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-293" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="1280" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-294" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-295" target="qO4f61m2Y4nxAiU2VlyZ-310">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-295" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="1480" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-296" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="980" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-297" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-299" target="qO4f61m2Y4nxAiU2VlyZ-291">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-298" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-299" target="qO4f61m2Y4nxAiU2VlyZ-296">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-299" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="970" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-300" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-289" target="qO4f61m2Y4nxAiU2VlyZ-299">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-301" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-303" target="qO4f61m2Y4nxAiU2VlyZ-293">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-302" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-303" target="qO4f61m2Y4nxAiU2VlyZ-304">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-303" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="1160" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-304" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="1170" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-305" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-307" target="qO4f61m2Y4nxAiU2VlyZ-295">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-306" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-307" target="qO4f61m2Y4nxAiU2VlyZ-308">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-307" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="1370" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-308" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="1380" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-309" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-310" target="qO4f61m2Y4nxAiU2VlyZ-311">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-314" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-310" target="qO4f61m2Y4nxAiU2VlyZ-313">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-310" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="1570" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-311" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="1580" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-367" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-313" target="qO4f61m2Y4nxAiU2VlyZ-315">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-313" value="Esperar 5 segundos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="298" y="1680" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-315" value="Luz de carril 1, encendido" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="1790" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-316" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-317" target="qO4f61m2Y4nxAiU2VlyZ-332">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-317" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="1990" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-318" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-319" target="qO4f61m2Y4nxAiU2VlyZ-336">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-319" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="2200" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-320" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-321" target="qO4f61m2Y4nxAiU2VlyZ-340">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-321" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="2400" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-322" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-323" target="qO4f61m2Y4nxAiU2VlyZ-342">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-323" value="esperamos 25&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;segundos&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="2590" width="80" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-324" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-323" target="qO4f61m2Y4nxAiU2VlyZ-323">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-325" value="luz peatonal 2&lt;div&gt;encendido&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="1900" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-326" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-328" target="qO4f61m2Y4nxAiU2VlyZ-317">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-327" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-328" target="qO4f61m2Y4nxAiU2VlyZ-325">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-328" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="1890" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-329" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-315" target="qO4f61m2Y4nxAiU2VlyZ-328">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-330" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-332" target="qO4f61m2Y4nxAiU2VlyZ-319">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-331" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-332" target="qO4f61m2Y4nxAiU2VlyZ-333">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-332" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="2080" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-333" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="2090" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-334" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-336" target="qO4f61m2Y4nxAiU2VlyZ-321">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-335" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-336" target="qO4f61m2Y4nxAiU2VlyZ-337">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-336" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="2290" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-337" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="2300" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-338" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-340" target="qO4f61m2Y4nxAiU2VlyZ-323">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-339" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-340" target="qO4f61m2Y4nxAiU2VlyZ-341">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-340" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="2490" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-341" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="2500" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-342" value="Luz de carril 1, amarillo" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#fff2cc;strokeColor=#d6b656;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="2680" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-343" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-344" target="qO4f61m2Y4nxAiU2VlyZ-356">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-344" value="Luz de carril 2, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="2880" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-345" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-346" target="qO4f61m2Y4nxAiU2VlyZ-360">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-346" value="Luz de carril 3, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="3090" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-347" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-348" target="qO4f61m2Y4nxAiU2VlyZ-364">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-348" value="Luz de carril 4, apagado" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="308" y="3290" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-349" value="luz peatonal 2&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="490" y="2790" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-350" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-352" target="qO4f61m2Y4nxAiU2VlyZ-344">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-351" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-352" target="qO4f61m2Y4nxAiU2VlyZ-349">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-352" value="si luz de carril 1 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="2780" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-353" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-342" target="qO4f61m2Y4nxAiU2VlyZ-352">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-354" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-356" target="qO4f61m2Y4nxAiU2VlyZ-346">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-355" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-356" target="qO4f61m2Y4nxAiU2VlyZ-357">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-356" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="2970" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-357" value="luz peatonal 3&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="480" y="2980" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-358" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-360" target="qO4f61m2Y4nxAiU2VlyZ-348">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-359" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-360" target="qO4f61m2Y4nxAiU2VlyZ-361">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-360" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="3180" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-361" value="luz peatonal 4&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="3190" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-362" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-364" target="qO4f61m2Y4nxAiU2VlyZ-365">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-363" value="" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qO4f61m2Y4nxAiU2VlyZ-364" target="qO4f61m2Y4nxAiU2VlyZ-366">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-364" value="si luz de carril 2 esta encendido" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="268" y="3380" width="160" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-365" value="luz peatonal 1&lt;div&gt;apagado&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="3390" width="80" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="qO4f61m2Y4nxAiU2VlyZ-366" value="Esperar 5 segundos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.delay;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="298" y="3490" width="100" height="60" as="geometry" />
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-137" value="ambos carriles están apagados" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="1850" width="50" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
