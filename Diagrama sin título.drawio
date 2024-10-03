@@ -734,6 +734,12 @@
         <mxCell id="tvCxCkWQ9LMUDPqLHwzt-137" value="ambos carriles están apagados" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="1850" width="50" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tvCxCkWQ9LMUDPqLHwzt-187" target="qO4f61m2Y4nxAiU2VlyZ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCxCkWQ9LMUDPqLHwzt-187" value="empezaos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="168" y="-200" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
